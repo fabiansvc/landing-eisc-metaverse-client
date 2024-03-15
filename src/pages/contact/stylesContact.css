@@ -1,0 +1,87 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    font-size: larger;
+    color: crimson;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 4rem;
+}
+
+#section-form-contact {
+    margin: 1rem auto;
+    max-width: 30rem;
+    padding: 2rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.25rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    margin-bottom: 0.75rem; 
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+button[type="submit"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc; 
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: crimson;
+    color: white;
+    font-size: medium;
+    padding: 0.625rem; 
+    border: none;
+    border-radius: 0.1875rem; 
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(112, 6, 27);
+}
+
+
+#confirmationMessage {
+    display: none;
+    background-color: #d4edda; /* Verde claro */
+    border: 1px solid #c3e6cb; /* Verde más oscuro */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#confirmationMessage p {
+    font-weight: bold;
+}
+
+#dataList {
+    list-style: none;
+    padding: 0;
+}
+
+#dataList li {
+    margin-bottom: 5px;
+}
